@@ -1,38 +1,79 @@
-.App {
+body{
+ background-color: rgba(29, 27, 27, 0.993);
+}
+.App{
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  font-family:sans-serif;
+  margin-top: 10%;
+  color: beige;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+
+.items{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App h1{
+  font-size: 40px;
+  text-align: center ;
 }
+
+.App .items h4{
+  font-size: 25px;
+}
+
+.App .addItems{
+  height: 30px;
+  width: 250px;
+  border-radius: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.App .items{
+  
+  display: flex;
+  color: rgba(245, 245, 245, 0.897);
+  line-height: 5px;
+}
+
+.App .items .checkbox{
+  flex: 10%;
+  float: left;
+  width: 30px;
+  height: 30px;
+}
+.App .items .completed{
+  text-decoration: line-through;
+  opacity: 0.5;
+  flex: 80%;
+}
+
+
+.App .items .uncompleted{
+  flex: 80%;
+}
+.App .items .btn{
+  float: right;
+  flex: 10%;
+}
+
+button{
+  border-radius: 20px;
+  border-color: red;
+  background-color: red;
+  color: azure;
+  width: 100px;
+  height: 30px;
+}
+
+
+
