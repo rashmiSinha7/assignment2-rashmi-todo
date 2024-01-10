@@ -1,7 +1,7 @@
 {
   "name": "assignment2-rashmi-todo",
   "version": "0.1.0",
-  "homepage": "https://rashmisinha7.github.io/to-do-app",
+  "homepage": "https://rashmisinha7.github.io/assignment2-rashmi-todo",
   "private": false,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.1",
