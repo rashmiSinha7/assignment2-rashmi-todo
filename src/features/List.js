@@ -18,11 +18,12 @@ export const listSlice = createSlice({
     },
 
     checkItem: (state, action) => {
-      state.value.splice(action.payload.id, 1, {
+      state.value.splice(action.payload.idx, 1, {
         id: action.payload.id,
         todo: action.payload.todo,
         checked: action.payload.checked
       });
+      console.log(state.value)
       
       window.localStorage.setItem("list", JSON.stringify(state.value));
     },

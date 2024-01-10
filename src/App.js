@@ -41,19 +41,20 @@ function App() {
       </form>
 
       {ItemList    ///returning todo items
-        ? ItemList.map((element) => {
+        ? ItemList.map((element,index) => {
             return (
-              <div className="items" key={element.id}>
+              <div className="items" key={index}>
                 <input className="checkbox"   ///checkbox
                   type="checkbox"
                   checked={element.checked}
                   
-                  onClick={() => {
+                  onChange={() => {
                     dispatch(
                       checkItem({
                         id: element.id,
                         todo: element.todo,
                         checked: !element.checked,
+                        idx:index, 
                       })
                     );
                     console.log(element);

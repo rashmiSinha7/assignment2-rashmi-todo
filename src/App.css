@@ -1,5 +1,10 @@
 body{
- background-color: rgba(29, 27, 27, 0.993);
+  background: linear-gradient(
+    90deg,
+    black,
+    rgb(185, 39, 185)
+  );
+  background-size: 400% 400%;
 }
 .App{
   text-align: center;
