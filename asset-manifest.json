@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/to-do-app/static/css/main.57c1de8a.css",
-    "main.js": "/to-do-app/static/js/main.bbcb3086.js",
-    "static/js/787.97dc3c05.chunk.js": "/to-do-app/static/js/787.97dc3c05.chunk.js",
-    "index.html": "/to-do-app/index.html",
-    "main.57c1de8a.css.map": "/to-do-app/static/css/main.57c1de8a.css.map",
-    "main.bbcb3086.js.map": "/to-do-app/static/js/main.bbcb3086.js.map",
-    "787.97dc3c05.chunk.js.map": "/to-do-app/static/js/787.97dc3c05.chunk.js.map"
+    "main.css": "/assignment2-rashmi-todo/static/css/main.57c1de8a.css",
+    "main.js": "/assignment2-rashmi-todo/static/js/main.cff5ac72.js",
+    "static/js/787.97dc3c05.chunk.js": "/assignment2-rashmi-todo/static/js/787.97dc3c05.chunk.js",
+    "index.html": "/assignment2-rashmi-todo/index.html",
+    "main.57c1de8a.css.map": "/assignment2-rashmi-todo/static/css/main.57c1de8a.css.map",
+    "main.cff5ac72.js.map": "/assignment2-rashmi-todo/static/js/main.cff5ac72.js.map",
+    "787.97dc3c05.chunk.js.map": "/assignment2-rashmi-todo/static/js/787.97dc3c05.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.57c1de8a.css",
-    "static/js/main.bbcb3086.js"
+    "static/js/main.cff5ac72.js"
   ]
 }
